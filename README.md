@@ -1,4 +1,7 @@
-# The one and only Monero mining calculator
+# Official URL
+# https://monerotools.github.io/calculator/
+
+## The one and only Monero mining calculator
 Monero is special. The emission curve makes sure that each new block have less blockreward. No mining calculator is considering this. If you use them, they lead you to wrong expectations.
 
 **Report an issue or a suggestion**
