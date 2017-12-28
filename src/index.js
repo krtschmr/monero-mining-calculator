@@ -109,14 +109,8 @@ class Calculator extends React.Component {
       var date = monero_launch_date.addDays(i);
       var months_mined_already = monthDiff(new Date(), date);
       var base_network = this.state.network * 1000000;
-      var expected_network =
-        base_network *
-        Math.pow(
-          1 + this.state.network_increase / 100,
-          months_mined_already + 1
-        );
-      var estimated =
-        this.state.hashrate * blockreward * blocktime / expected_network;
+      var expected_network = base_network * Math.pow( 1 + this.state.network_increase / 100, months_mined_already );
+      var estimated = this.state.hashrate * blockreward * blocktime / expected_network;
 
       var today = {
         date: date,
@@ -156,9 +150,9 @@ class Calculator extends React.Component {
 
     this.state = {
       hashrate: 800,
-      network: 0,
+      network: 500,
       days: 90,
-      network_increase: 25,
+      network_increase: 15,
       rewards: [],
       pool_fee: 0.6
     };
@@ -182,7 +176,7 @@ class Calculator extends React.Component {
     var monthly_income = 0.0;
 
     rewards.map(function(row, i) {
-      var tmp_month = row.date.getUTCMonth() + 1 + "/" + row.date.getFullYear();
+      var tmp_month = row.date.getMonth() + 1 + "/" + row.date.getFullYear();
       if (monthly[tmp_month] == null) {
         monthly[tmp_month] = 0.0;
       }
