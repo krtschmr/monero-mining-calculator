@@ -1,12 +1,12 @@
 # Official URL
-# https://monerotools.github.io/calculator/
+# https://krtschmr.github.io/calculator/
 
 ## The one and only Monero mining calculator
-Monero is special. The emission curve makes sure that each new block have less blockreward. No mining calculator is considering this. If you use them, they lead you to wrong expectations.
+Monero is special. The emission curve makes sure that each new block have less blockreward. No mining calculator is considering this. If you use them, they'll lead you to wrong expectations.
 
 **Report an issue or a suggestion**
 You can make this world a better place and report any bugs or submit your ideas.
-https://github.com/monerotools/calculator/issues
+https://github.com/krtschmr/calculator/issues
 
 
 This calculator uses the following formula:
@@ -20,6 +20,4 @@ This calculator uses the following formula:
 I am very sure, that this will help you to calculate more precise, save a lot of money and do the right decision. If this was helpful to you, please consider a small donation.
 
 - XMR: 47JUJMoxKkJL2v1iaEx31ngQCQcEGobUpevqtzSzKPTAEAt1Ay7NZrQgU6mnN2mVyWi7yk2ig68KsU8bfXQ45ainEAchp1T
-- LTC: LiXw5wQw7tbdzNPrhBA5UaMyvZwys8ZXfj
-- ETH: 0x99b04eC0C6E85c3b0F54f6a09b4745571b3142fD
-- Doge: DQH2Eou1Wf7LABpX6St7vkxqBvYbkGim4J
+- ETH: 0x6a5de78354bf278cedf97bb3f1b8a03b34dd2668
