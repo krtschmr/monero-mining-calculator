@@ -1,7 +1,7 @@
-# Official URL
-# https://krtschmr.github.io/calculator/
+## Official URL
+## https://krtschmr.github.io/monero-mining-calculator/
 
-## The one and only Monero mining calculator
+### The one and only Monero mining calculator
 Monero is special. The emission curve makes sure that each new block have less blockreward. No mining calculator is considering this. If you use them, they'll lead you to wrong expectations.
 
 **Report an issue or a suggestion**
