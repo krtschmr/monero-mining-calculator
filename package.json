@@ -1,7 +1,7 @@
 {
-  "homepage": "http://monerotools.github.io/calculator",
+  "homepage": "http://krtschmr.github.io/monero-mining-calculator",
   "name": "MoneroCalculator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
@@ -17,6 +17,6 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0"
+    "gh-pages": "^1.2.0"
   }
 }
